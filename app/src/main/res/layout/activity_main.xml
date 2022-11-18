@@ -40,6 +40,7 @@
         android:textStyle="bold" />
 
     <Button
+        android:id="@+id/btnDatePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
@@ -47,5 +48,46 @@
         android:textColor="@color/gray_text"
         android:textSize="16sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/empty_date"
+        android:textAlignment="center"
+        android:textColor="@color/gray_text"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/selected_date"
+        android:textAlignment="center"
+        android:textColor="@color/gray_text"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/minute_hint"
+        android:textAlignment="center"
+        android:textColor="@color/orange_jelly"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/minute_alive"
+        android:textAlignment="center"
+        android:textColor="@color/gray_text"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
 
 </LinearLayout>

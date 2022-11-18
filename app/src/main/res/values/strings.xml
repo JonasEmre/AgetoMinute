@@ -4,4 +4,8 @@
     <string name="age">Yaşını</string>
     <string name="in_minutes">Kaç dakikadır yaşıyorsun?</string>
     <string name="select_date">TARİH SEÇ</string>
+    <string name="empty_date">././....</string>
+    <string name="selected_date">Seçilmiş Tarih</string>
+    <string name="minute_alive">dakika yaşanmış</string>
+    <string name="minute_hint">0</string>
 </resources>
